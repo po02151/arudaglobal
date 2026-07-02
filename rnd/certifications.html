@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />  
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <title>R&D > Certifications</title>
+    <style>
+        @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+        .pretendard {
+          font-family: 'Pretendard Variable', sans-serif;
+        }
+    </style>
+
+    <style>
+        html.lenis, html.lenis body {
+            height: auto;
+        }
+        .lenis.lenis-smooth {
+            scroll-behavior: auto !important;
+        }
+        .lenis.lenis-smooth [data-lenis-prevent] {
+            overscroll-behavior: contain;
+        }
+        .lenis.lenis-stopped {
+            overflow: hidden;
+        }
+    </style>
+    <!-- lenis Fin -->
+
+    <style>
+        .quickMenu .menuMore.active .list {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .quickMenu .menuMore.active .btnMore {
+            margin-top: 8px;
+        }
+
+        .quickMenu .menuMore.active .list li {
+            margin-bottom: 0;
+        }
+
+        .quickMenu .topBtn.active {
+            -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+            margin-bottom: 0;
+            opacity: 1;
+        }
+    </style>
+    <!-- quickMenu Fin -->
+</head>
+<body class="pretendard">
+
+    <header class="active z-[9999] fixed left-0 top-0 w-full lg:overflow-hidden">
+        <div id="header_pc" class="headerBG h-[100px] relative lg:block hidden bg-transparent transition-all duration-300 ease-out">
+            <div class="lg:w-[90%] md:w-[720px] w-[90%] mx-auto flex justify-between">
+                <h1 class="logo lg:fixed md:static fixed md:left-auto top-0 lg:w-[148px] md:w-[110px] w-[88px] lg:h-[100px] md:h-[76px] h-[60px]">
+                    <a href="../index.html" class="block w-full xl:max-w-[148px] max-w-[110px] h-[100px] bg-center bg-contain bg-no-repeat" style="background-image: url('../assets/images/global/logo.png');">
+                        <span class="sr-only">ARUDA</span>
+                    </a>
+                </h1>
+                <nav id="nav" class="overflow-hidden text-black lg:flex hidden w-full group flex-col justify-end text-center">
+                    <ul class="tracking-[-1px] flex justify-center 2xl:gap-[4%] gap-[1%]">
+                        <li>
+                            <a href="../company/about.html" class="menu1 w-[100px] font-semibold text-[17px] hover:text-[#AA3430] transition-all duration-300 ease-out block lg:leading-[100px] md:leading-[76px] leading-[60px] relative
+                                after:content-[''] after:opacity-0 after:w-0 after:transition-all after:duration-300 after:ease-out after:h-[2px] after:bg-[#AA3430] after:absolute after:left-1/2 after:transform after:-translate-x-1/2 after:top-[86px]">
+                                Company
+                            </a>
+
+                            <div class="menuBox1 flex flex-col gap-3">
+                                <a href="../company/about.html" class="hover:text-[#AA3430] transition-all ease-out duration-300 block">
+                                    About Us
+                                </a>
+                                <a href="../company/history.html" class="hover:text-[#AA3430] transition-all ease-out duration-300 block">
+                                    History
+                                </a>
+                                <a href="../company/facilities.html" class="hover:text-[#AA3430] transition-all ease-out duration-300 block">
+                                    Facilities
+                                </a>
+                                <a href="../company/location.html" class="hover:text-[#AA3430] transition-all ease-out duration-300 block">
+                                    Location
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="../product/product.html" class="menu2 w-[100px] font-semibold text-[17px] hover:text-[#AA3430] transition-all duration-300 ease-out block lg:leading-[100px] md:leading-[76px] leading-[60px] relative
+                                after:content-[''] after:opacity-0 after:w-0 after:transition-all after:duration-300 after:ease-out after:h-[2px] after:bg-[#AA3430] after:absolute after:left-1/2 after:transform after:-translate-x-1/2 after:top-[86px]">
+                                Product
+                            </a>
+
+                            <div class="menuBox2 flex flex-col gap-3">
+                                <a href="../product/product.html" class="hover:text-[#AA3430] transition-all ease-out duration-300 block">
+                                    Product
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="../rnd/philosophy.html" class="menu3 w-[100px] font-semibold text-[17px] hover:text-[#AA3430] transition-all duration-300 ease-out block lg:leading-[100px] md:leading-[76px] leading-[60px] relative
+                                after:content-[''] after:opacity-0 after:w-0 after:transition-all after:duration-300 after:ease-out after:h-[2px] after:bg-[#AA3430] after:absolute after:left-1/2 after:transform after:-translate-x-1/2 after:top-[86px]">
+                                R&D
+                            </a>
+
+                            <div class="menuBox3 flex flex-col gap-3">
+                                <a href="../rnd/philosophy.html" class="hover:text-[#AA3430] transition-all ease-out duration-300 block">
+                                    Philosophy
+                                </a>
+                                <a href="../rnd/certifications.html" class="hover:text-[#AA3430] transition-all ease-out duration-300 block">
+                                    Certifications
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="../oemodm/oem_odm.html" class="menu4 w-[100px] font-semibold text-[17px] hover:text-[#AA3430] transition-all duration-300 ease-out block lg:leading-[100px] md:leading-[76px] leading-[60px] relative
+                                after:content-[''] after:opacity-0 after:w-0 after:transition-all after:duration-300 after:ease-out after:h-[2px] after:bg-[#AA3430] after:absolute after:left-1/2 after:transform after:-translate-x-1/2 after:top-[86px]">
+                                OEM/ODM
+                            </a>
+
+                            <div class="menuBox4 flex flex-col gap-3">
+                                <a href="../oemodm/oem_odm.html" class="hover:text-[#AA3430] transition-all ease-out duration-300 block">
+                                    OEM/ODM
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="../pr/aruda_news.html" class="menu5 w-[100px] font-semibold text-[17px] hover:text-[#AA3430] transition-all duration-300 ease-out block lg:leading-[100px] md:leading-[76px] leading-[60px] relative
+                                after:content-[''] after:opacity-0 after:w-0 after:transition-all after:duration-300 after:ease-out after:h-[2px] after:bg-[#AA3430] after:absolute after:left-1/2 after:transform after:-translate-x-1/2 after:top-[86px]">
+                                PR
+                            </a>
+                            <div class="menuBox5 flex flex-col gap-3">
+                                <a href="../pr/aruda_news.html" class="hover:text-[#AA3430] transition-all ease-out duration-300 block">
+                                    ARUDA News
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="../inquiry/inquiry.html" class="menu6 w-[100px] font-semibold text-[17px] hover:text-[#AA3430] transition-all duration-300 ease-out block lg:leading-[100px] md:leading-[76px] leading-[60px] relative
+                                after:content-[''] after:opacity-0 after:w-0 after:transition-all after:duration-300 after:ease-out after:h-[2px] after:bg-[#AA3430] after:absolute after:left-1/2 after:transform after:-translate-x-1/2 after:top-[86px]">
+                                Inquiry
+                            </a>
+
+                            <div class="menuBox6 flex flex-col gap-3">
+                                <a href="../inquiry/inquiry.html" class="hover:text-[#AA3430] transition-all ease-out duration-300 block">
+                                    Inquiry
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <div class="btnBox absolute lg:fixed md:static fixed right-[5%] top-0 lg:h-[100px] md:h-[76px] h-[60px] text-sm font-semibold flex items-center xl:gap-6 gap-3 text-white">
+                
+                    <a href="https://arudaglobal.com/wp-content/themes/aruda/assets/file/Aruda-Product-Catalog-EN.pdf" class="catalogBtn" download="Aruda-Product-Catalog-EN.pdf">
+                        <span class="relative pl-5 inline-block">
+                            <span class="block absolute left-0 top-1/2 transform -translate-y-1/2 w-[14px] h-[16px] bg-contain bg-center bg-no-repeat" style="background-image: url('../assets/images/global/catalog_white.png');"></span>
+                            Catalog                    
+                        </span>
+                    </a>
+
+                
+                    <div id="langDropdown" class="relative inline-block text-left select-none">
+                        <button id="langToggle" class="langBtn inline-block px-3 py-1.5 rounded-md transition">
+                            <span class="relative inline-block pl-[24px] align-middle">
+                            <span class="lang-icon absolute left-0 top-1/2 -translate-y-1/2 w-[18px] h-[18px] bg-center bg-contain bg-no-repeat pointer-events-none" style="background-image: url('../assets/images/global/lang_white.png');"></span>
+                            <span class="lang-text text-sm font-semibold">
+                                EN
+                            </span>
+                            </span>
+                        </button>
+
+                        <ul id="langMenu" class="absolute [inset-inline-start:0] mt-2 w-28 rounded-2xl bg-white shadow-[0_10px_25px_rgba(0,0,0,0.15)] ring-1 ring-black/5 py-3 z-[9999] opacity-0 invisible translate-y-1 transition">
+                            <li>
+                                <a href="../index.html" class="relative block text-center py-1 text-sm tracking-wide
+                                        text-[#AA3430] font-semibold after:w-6 after:opacity-100                  
+                                        after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2
+                                        after:bottom-0 after:h-[2px] after:w-0 after:bg-[#AA3430]
+                                        after:opacity-0 after:transition-all after:duration-300
+                                        hover:after:w-6 hover:after:opacity-100">
+                                    EN
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../index.html" class="relative block text-center py-1 text-sm tracking-wide
+                                    text-neutral-800 hover:text-[#AA3430]                  
+                                    after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2
+                                    after:bottom-0 after:h-[2px] after:w-0 after:bg-[#AA3430]
+                                    after:opacity-0 after:transition-all after:duration-300
+                                    hover:after:w-6 hover:after:opacity-100">
+                                    CN
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../index.html" class="relative block text-center py-1 text-sm tracking-wide
+                                    text-neutral-800 hover:text-[#AA3430]                  
+                                    after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2
+                                    after:bottom-0 after:h-[2px] after:w-0 after:bg-[#AA3430]
+                                    after:opacity-0 after:transition-all after:duration-300
+                                    hover:after:w-6 hover:after:opacity-100">
+                                    RU                                
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../index.html" class="relative block text-center py-1 text-sm tracking-wide
+                                    text-neutral-800 hover:text-[#AA3430]                  
+                                    after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2
+                                    after:bottom-0 after:h-[2px] after:w-0 after:bg-[#AA3430]
+                                    after:opacity-0 after:transition-all after:duration-300
+                                    hover:after:w-6 hover:after:opacity-100">
+                                    AR                                
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        <!-- pc Fin -->
+        
+        <div id="header_mo" class="lg:hidden block">
+            
+            
+            <div class="headerBG flex justify-between relative z-[9999] px-[5%] box-border transition-all duration-300 ease-out">
+                <a href="../index.html" class="logo block w-full lg:max-w-[148px] md:max-w-[110px] max-w-[88px] lg:h-[100px] md:h-[76px] h-[60px] bg-center bg-contain bg-no-repeat" style="background-image: url('../assets/images/global/logo.png');">
+                    <span class="sr-only">
+                        aruda
+                    </span>
+                </a>
+
+                <div class="btnBox absolute lg:fixed md:static fixed right-[5%] top-0 lg:h-[100px] md:h-[76px] h-[60px] text-sm font-semibold flex items-center xl:gap-6 gap-3 text-white">
+                
+                    <a href="https://arudaglobal.com/wp-content/themes/aruda/assets/file/Aruda-Product-Catalog-EN.pdf" class="catalogBtn" download="Aruda-Product-Catalog-EN.pdf">
+                        <span class="relative pl-5 inline-block">
+                            <span class="block absolute left-0 top-1/2 transform -translate-y-1/2 w-[14px] h-[16px] bg-contain bg-center bg-no-repeat" style="background-image: url('../assets/images/global/catalog_white.png');"></span>
+                            Catalog                    
+                        </span>
+                    </a>
+
+                
+                    <div id="langDropdownMo" class="z-[9999] relative inline-block text-left select-none">
+                        <button id="langToggleMo" class="langBtn inline-block px-3 py-1.5 rounded-md transition">
+                            <span class="relative inline-block pl-[24px] align-middle">
+                            <span class="lang-icon absolute left-0 top-1/2 -translate-y-1/2 w-[18px] h-[18px] bg-center bg-contain bg-no-repeat pointer-events-none" style="background-image: url('../assets/images/global/lang_white.png');"></span>
+                            <span class="lang-text text-sm font-semibold">
+                                EN
+                            </span>
+                            </span>
+                        </button>
+
+                        <ul id="langMenuMo" class="absolute [inset-inline-start:0] mt-2 w-28 rounded-2xl bg-white shadow-[0_10px_25px_rgba(0,0,0,0.15)] ring-1 ring-black/5 py-3 z-[9999] opacity-0 invisible translate-y-1 transition">
+                            <li>
+                                <a href="../index.html" class="relative block text-center py-1 text-sm tracking-wide
+                                        text-[#AA3430] font-semibold after:w-6 after:opacity-100                  
+                                        after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2
+                                        after:bottom-0 after:h-[2px] after:w-0 after:bg-[#AA3430]
+                                        after:opacity-0 after:transition-all after:duration-300
+                                        hover:after:w-6 hover:after:opacity-100">
+                                    EN
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../index.html" class="relative block text-center py-1 text-sm tracking-wide
+                                    text-neutral-800 hover:text-[#AA3430]                  
+                                    after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2
+                                    after:bottom-0 after:h-[2px] after:w-0 after:bg-[#AA3430]
+                                    after:opacity-0 after:transition-all after:duration-300
+                                    hover:after:w-6 hover:after:opacity-100">
+                                    CN
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../index.html" class="relative block text-center py-1 text-sm tracking-wide
+                                    text-neutral-800 hover:text-[#AA3430]                  
+                                    after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2
+                                    after:bottom-0 after:h-[2px] after:w-0 after:bg-[#AA3430]
+                                    after:opacity-0 after:transition-all after:duration-300
+                                    hover:after:w-6 hover:after:opacity-100">
+                                    RU                                
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../index.html" class="relative block text-center py-1 text-sm tracking-wide
+                                    text-neutral-800 hover:text-[#AA3430]                  
+                                    after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2
+                                    after:bottom-0 after:h-[2px] after:w-0 after:bg-[#AA3430]
+                                    after:opacity-0 after:transition-all after:duration-300
+                                    hover:after:w-6 hover:after:opacity-100">
+                                    AR                                
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                
+                    <button id="hamburger" class="z-[9999] transition transition-all duration-300 ease-out lg:hidden flex flex-col justify-center items-end gap-[6px] w-7 h-9">
+                        <span class="transition transition-all duration-300 ease-out rounded-lg block w-[26px] h-[3px] rounded-full bg-white"></span>
+                        <span class="transition transition-all duration-300 ease-out rounded-lg block w-[18px] h-[3px] rounded-full bg-white"></span>
+                        <span class="transition transition-all duration-300 ease-out rounded-lg block w-[23px] h-[3px] rounded-full bg-white"></span>
+                    </button>
+                    
+                </div>
+
+                <nav class="fixed z-[999] md:top-[70px] top-[60px] right-[-100%] w-full bg-white transition-all duration-300 ease-out md:h-[calc(100vh-70px)] h-[calc(100vh-60px)] overflow-auto">
+                    <ul class="flex mx-auto flex-col justify-center items-center text-neutral-900 font-semibold text-lg">
+                        <li class="w-full overflow-hidden">
+                            <div class="siteMap-accordion-header border-b border-neutral-200 relative cursor-pointer transition-all duration-500 ease-out">
+                                <div class="px-[5%] box-border flex justify-between items-center box-border">
+                                    <h2 class="cursor-pointer leading-[70px] block">
+                                        Company
+                                    </h2>
+                                    <svg class="absolute top-6 right-[5%] origin-center transform size-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                    </svg>    
+                                </div>                         
+                            </div>
+                            <!-- depth1 Fin -->
+                            <div class="siteMap-accordion-content px-[5%] box-border text-neutral-700 font-semibold text-base box-border max-h-0 overflow-hidden transition-all duration-300 ease-out">
+                                <ul class="flex flex-col gap-3 py-5">
+                                    <li>
+                                        <a href="../company/about.html" class="block">
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../company/history.html" class="block">
+                                            History
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../company/facilities.html" class="block">
+                                            Facilities
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../company/location.html" class="block">
+                                            Location
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- depth2 Fin -->
+                        </li>
+                        <li class="w-full overflow-hidden">
+                            <div class="siteMap-accordion-header border-b border-neutral-200 relative cursor-pointer transition-all duration-500 ease-out">
+                                <div class="px-[5%] box-border flex justify-between items-center box-border">
+                                    <h2 class="cursor-pointer leading-[70px] block">
+                                        Product
+                                    </h2>
+                                    <svg class="absolute top-6 right-[5%] origin-center transform size-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                    </svg>    
+                                </div>                         
+                            </div>
+                            <!-- depth1 Fin -->
+                            <div class="siteMap-accordion-content px-[5%] box-border text-neutral-700 font-semibold text-base box-border max-h-0 overflow-hidden transition-all duration-300 ease-out">
+                                <ul class="flex flex-col gap-3 py-5">
+                                    <li>
+                                        <a href="../product/product.html" class="block">
+                                            product
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- depth2 Fin -->
+                        </li>
+                        <li class="w-full overflow-hidden">
+                            <div class="siteMap-accordion-header border-b border-neutral-200 relative cursor-pointer transition-all duration-500 ease-out">
+                                <div class="px-[5%] box-border flex justify-between items-center box-border">
+                                    <h2 class="cursor-pointer leading-[70px] block">
+                                        R&D
+                                    </h2>
+                                    <svg class="absolute top-6 right-[5%] origin-center transform size-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                    </svg>    
+                                </div>                         
+                            </div>
+                            <!-- depth1 Fin -->
+                            <div class="siteMap-accordion-content px-[5%] box-border text-neutral-700 font-semibold text-base box-border max-h-0 overflow-hidden transition-all duration-300 ease-out">
+                                <ul class="flex flex-col gap-3 py-5">
+                                    <li>
+                                        <a href="../rnd/philosophy.html" class="block">
+                                            Philosophy
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../rnd/certifications.html" class="block">
+                                            Certifications
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- depth2 Fin -->
+                        </li>
+                        <li class="w-full overflow-hidden">
+                            <div class="siteMap-accordion-header border-b border-neutral-200 relative cursor-pointer transition-all duration-500 ease-out">
+                                <div class="px-[5%] box-border flex justify-between items-center box-border">
+                                    <h2 class="cursor-pointer leading-[70px] block">
+                                        OEM/ODM
+                                    </h2>
+                                    <svg class="absolute top-6 right-[5%] origin-center transform size-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                    </svg>    
+                                </div>                         
+                            </div>
+                            <!-- depth1 Fin -->
+                            <div class="siteMap-accordion-content px-[5%] box-border text-neutral-700 font-semibold text-base box-border max-h-0 overflow-hidden transition-all duration-300 ease-out">
+                                <ul class="flex flex-col gap-3 py-5">
+                                    <li>
+                                        <a href="../oemodm/oem_odm.html" class="block">
+                                            OEM/ODM
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- depth2 Fin -->
+                        </li>
+                        <li class="w-full overflow-hidden">
+                            <div class="siteMap-accordion-header border-b border-neutral-200 relative cursor-pointer transition-all duration-500 ease-out">
+                                <div class="px-[5%] box-border flex justify-between items-center box-border">
+                                    <h2 class="cursor-pointer leading-[70px] block">
+                                        PR
+                                    </h2>
+                                    <svg class="absolute top-6 right-[5%] origin-center transform size-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                    </svg>    
+                                </div>                         
+                            </div>
+                            <!-- depth1 Fin -->
+                            <div class="siteMap-accordion-content px-[5%] box-border text-neutral-700 font-semibold text-base box-border max-h-0 overflow-hidden transition-all duration-300 ease-out">
+                                <ul class="flex flex-col gap-3 py-5">
+                                    <li>
+                                        <a href="../pr/aruda_news.html" class="block">
+                                            ARUDA News
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- depth2 Fin -->
+                        </li>
+                        <li class="w-full overflow-hidden">
+                            <div class="siteMap-accordion-header border-b border-neutral-200 relative cursor-pointer transition-all duration-500 ease-out">
+                                <div class="px-[5%] box-border flex justify-between items-center box-border">
+                                    <h2 class="cursor-pointer leading-[70px] block">
+                                        Inquiry
+                                    </h2>
+                                    <svg class="absolute top-6 right-[5%] origin-center transform size-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                    </svg>    
+                                </div>                         
+                            </div>
+                            <!-- depth1 Fin -->
+                            <div class="siteMap-accordion-content px-[5%] box-border text-neutral-700 font-semibold text-base box-border max-h-0 overflow-hidden transition-all duration-300 ease-out">
+                                <ul class="flex flex-col gap-3 py-5">
+                                    <li>
+                                        <a href="../inquiry/inquiry.html" class="block">
+                                            Inquiry
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- depth2 Fin -->
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- tab, mo Fin -->
+
+        </div>
+    </header>
+    <!-- header Fin -->
+
+
+    <div class="quickMenu fixed right-12 bottom-24 z-[99]">
+        <ul class="list flex flex-col gap-2 relative">
+            <li>
+                <div class="menuMore flex flex-col-reverse">
+                    <button type="button" class="btnMore z-[99] relative indent-[-9999px] w-[60px] h-[60px] bg-[#AA3430] transition-all duration-500 rounded-full
+                        after:content-[''] after:absolute after:left-1/2 after:top-1/2 after:transform after:-translate-x-1/2 after:-translate-y-1/2 after:w-[21px] after:h-[29px] after:bg-center after:bg-contain after:bg-no-repeat after:bg-[url('../assets/images/global/quick_symbol.png')]" style="box-shadow: 0 5px 10px 0 rgba(53, 53, 55, .2);">
+                        더보기    
+                    </button>
+                    <div class="content">
+                        <ul class="list invisible opacity-0 flex flex-col gap-2 transition-all duration-500">
+                            <li class="mb-[-100%] transition-all duration-500">
+                                <a href="https://api.whatsapp.com/qr/YATRXDFRT76XC1?autoload=1&app_absent=0" target="_blank" class="block w-[60px] h-[60px] z-[9] rounded-full indent-[-9999px] relative
+                                    after:content-[''] after:absolute after:left-1/2 after:top-1/2 after:tranform after:-translate-x-1/2 after:-translate-y-1/2 after:bg-center after:bg-contain after:bg-no-repeat after:bg-[url('../assets/images/global/quick_tel.png')] after:w-[26px] after:h-[26px]"
+                                    style="background: linear-gradient(180deg, #65D640 0%, #2CA600 100%); box-shadow: 0 5px 10px 0 rgba(53, 53, 55, 0.2);">
+                                    전화
+                                </a>
+                            </li>
+                            <li class="mb-[-100%] transition-all duration-500">
+                                <a href="https://www.wechat.com/ko" target="_blank" class="block w-[60px] h-[60px] bg-[#99D701] z-[9] rounded-full indent-[-9999px] relative
+                                    after:content-[''] after:absolute after:left-1/2 after:top-1/2 after:tranform after:-translate-x-1/2 after:-translate-y-1/2 after:bg-center after:bg-contain after:bg-no-repeat after:bg-[url('../assets/images/global/quick_chat.png')] after:w-[30px] after:h-[26px]"
+                                    style="box-shadow: 0 5px 10px 0 rgba(53, 53, 55, 0.2);">
+                                    채팅
+                                </a>
+                            </li>
+                            <li class="mb-[-100%] transition-all duration-500">
+                                <a href="javascript:;" class="block w-[60px] h-[60px] bg-[#0FB010] z-[9] rounded-full indent-[-9999px] bg-center bg-cover bg-no-repeat relative 
+                                    after:content-[''] after:absolute after:left-1/2 after:top-1/2 after:tranform after:-translate-x-1/2 after:-translate-y-1/2 after:bg-center after:bg-contain after:bg-no-repeat after:bg-[url('../assets/images/global/quick_line.png')] after:w-[26px] after:h-[25px]" 
+                                    style="box-shadow: 0 5px 10px 0 rgba(53, 53, 55, 0.2);">
+                                    라인
+                                </a>
+                            </li>
+                            <li class="mb-[-100%] transition-all duration-500">
+                                <a href="javascript:;" class="btn-kakaotalk block w-[60px] h-[60px] bg-[#0FB010] z-[9] rounded-full indent-[-9999px] relative 
+                                    after:content-[''] after:absolute after:left-1/2 after:top-1/2 after:tranform after:-translate-x-1/2 after:-translate-y-1/2 after:bg-center after:bg-contain after:bg-no-repeat after:bg-[url('../assets/images/global/quick_insta.png')] after:w-[26px] after:h-[26px]" 
+                                    style="background-image: url('../assets/images/global/instaBG.png'); box-shadow: 0 5px 10px 0 rgba(53, 53, 55, .2);">
+                                    인스타
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <button class="topBtn opacity-0 absolute bottom-0 left-0 block w-[60px] h-[60px] bg-[#2C2E30] z-[9] rounded-full indent-[-9999px] transition-all duration-500 ease-out" 
+                    style="box-shadow: 0 5px 10px 0 rgba(53, 53, 55, .2);">
+                    <svg class="size-6 text-white absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
+                    </svg>
+                </button>
+            </li>
+        </ul>
+    </div>
+    <!-- quickMenu Fin -->
+
+    <section class="lg:pt-[220px] pt-[176px]">
+        
+        <div class="2xl:w-[1400px] lg:w-[90%] md:w-[720px] w-[90%] mx-auto lg:mb-[60px] md:mb-[50px] mb-7">
+            <div class="lg:mb-6 mb-5 z-[9] 2xl:w-[1280px] lg:w-[90%] md:w-[720px] w-[90%] flex items-center gap-[10px]">
+                <div class="relative
+                    after:content-[''] after:absolute after:right-[-8px] after:top-1/2 after:transform after:-translate-y-1/2 after:w-[4px] after:h-[8px] after:bg-center after:bg-contain after:bg-no-repeat after:bg-[url('../assets/images/common/arrow_right.png')]">
+                    <a href="../index.html" class="px-3 block w-[14px] h-[12px] bg-left bg-contain bg-no-repeat" style="background-image: url('../assets/images/common/home.png');">
+                        <span class="sr-only">home</span>
+                    </a>
+                </div>
+                <div class="px-3 relative 
+                    after:content-[''] after:absolute after:right-[-8px] after:top-1/2 after:transform after:-translate-y-1/2 after:w-[4px] after:h-[8px] after:bg-center after:bg-contain after:bg-no-repeat after:bg-[url('../assets/images/common/arrow_right.png')]">
+                    <button class="btn-select lg:text-base md:text-[15px] text-sm font-medium text-[#666666] pr-[13px] relative">
+                        <span>
+                            R&D
+                        </span>
+                        <span class="arrow-icon absolute right-0 top-1/2 transform -translate-y-1/2 transition-transform duration-300 origin-center w-[7px] h-[4px] bg-center bg-contain bg-no-repeat bg-[url('../assets/images/common/arrow_down.png')]">
+                        </span>
+                    </button>
+                    <ul class="list-member lg:text-base md:text-[15px] text-sm z-[99] absolute top-6 left-0 invisible opacity-0 transition transition-all duration-500 ease-out bg-white rounded-[8px] box-border w-[180px] py-4 px-5 box-border shadow-lg">
+                        <li class="group">
+                            <a href="../company/about.html" class="block transition transition-all duration-300 ease-out group-hover:text-[#AA3430] w-full text-[#555555] font-medium py-2">
+                                Company
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="../product/product.html" class="block transition transition-all duration-300 ease-out group-hover:text-[#AA3430] w-full text-[#555555] font-medium py-2">
+                                Product
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="../rnd/certifications.html" class="block transition transition-all duration-300 ease-out group-hover:text-[#AA3430] w-full text-[#555555] font-bold py-2">
+                                R&D
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="../oemodm/oem_odm.html" class="block transition transition-all duration-300 ease-out group-hover:text-[#AA3430] w-full text-[#555555] font-medium py-2">
+                                OEM/ODM
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="../pr/aruda_news.html" class="block transition transition-all duration-300 ease-out group-hover:text-[#AA3430] w-full text-[#555555] font-medium py-2">
+                                PR
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="../inquiry/" class="block transition transition-all duration-300 ease-out group-hover:text-[#AA3430] w-full text-[#555555] font-medium py-2">
+                                Inquiry
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="px-3 relative">
+                    <button class="btn-select lg:text-base md:text-[15px] text-sm font-semibold text-[#AA3430] pr-[13px] relative">
+                        <span>
+                            Certifications
+                        </span>
+                        <span class="arrow-icon absolute right-0 top-1/2 transform -translate-y-1/2 transition-transform duration-300 origin-center w-[7px] h-[4px] bg-center bg-contain bg-no-repeat bg-[url('../assets/images/common/arrow_down_active.png')]">
+                        </span>
+                    </button>
+                    
+                    <ul class="list-member lg:text-base md:text-[15px] text-sm z-[99] absolute top-6 left-0 invisible opacity-0 transition transition-all duration-500 ease-out bg-white rounded-[8px] box-border w-[180px] py-4 px-5 box-border shadow-lg">
+                        <li class="group">
+                            <a href="../rnd/philosophy.html" class="block transition transition-all duration-300 ease-out group-hover:text-[#AA3430] w-full text-[#555555] font-bold py-2">
+                                Philosophy
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="../rnd/certifications.html" class="block transition transition-all duration-300 ease-out group-hover:text-[#AA3430] w-full text-[#555555] font-medium py-2">
+                                Certifications
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- sub nav Fin -->
+            
+            <h2 class="lg:text-[64px] md:text-[52px] text-[40px] lg:leading-[76px] md:leading-[62px] leading-[48px] font-extrabold">
+                R&D
+            </h2>
+        </div>
+
+
+        <ul class="md:flex hidden justify-center bg-[#FAFAFA] font-semibold lg:text-[20px] text-[17px]">
+            <li>
+                <a href="../rnd/philosophy.html" class="block py-5 px-9 text-[#999999]">
+                    Philosophy
+                </a>
+            </li>
+            <li>
+                <a href="../rnd/certifications.html" class="block py-5 px-9 text-[#AA3430] font-bold">
+                    Certifications
+                </a>
+            </li>
+        </ul>
+
+        <div class="md:hidden block relative w-[90%] mx-auto my-7
+            before:content-[''] before:opacity-50 before:absolute before:left-0 before:top-1/2 before:transform before:-translate-y-1/2 before:w-px before:bg-white before:h-4 before:block">
+            <div class="relative z-30">
+                <button type="button" class="btn-select rounded-[4px] text-left p-4 box-border z-10 font-semibold text-[15px] text-[#111111] bg-white border border-[#111111] w-full relative">
+                    Certifications
+                </button>
+                <svg class="arrow-icon z-20 text-[#111111] transform transition-transform duration-300 size-4 absolute h-5 right-4 top-1/2 transform -translate-y-1/2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                </svg>
+            </div>
+            <ul class="list-member text-[#666666] text-[13px] font-medium z-20 absolute top-[60px] left-0 invisible opacity-0 transition transition-all duration-500 ease-out bg-white border border-[#E9E9E9] rounded-[4px] w-full">
+                <li>
+                    <a href="../rnd/philosophy.html" class="block p-4 box-border border-b border-[#E9E9E9] transition transition-all duration-300 ease-out w-full">
+                        Philosophy
+                    </a>
+                </li>
+                <li>
+                    <a href="../rnd/certifications.html" class="block p-4 box-border border-b border-[#E9E9E9] transition transition-all duration-300 ease-out w-full">
+                        Certifications
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- section1 Fin -->
+
+    <section class="lg:py-[140px] md:pt-20 pt-7 md:pb-[100px] pb-[60px] 2xl:w-[1400px] lg:w-[90%] md:w-[720px] w-[90%] mx-auto">
+        <h2 class="sr-only">
+            Certification
+        </h2>
+        <div class="font-bold lg:text-xl md:text-[17px] text-[15px] flex justify-center lg:mb-[100px] md:mb-[60px] mb-10">
+            <button class="bg-[#AA3430] text-white lg:w-[300px] md:w-[220px] w-1/2 md:py-5 py-4">
+                Certification
+            </button>
+            <button class="bg-[#F3F3F3] text-[#AAAAAA] lg:w-[300px] md:w-[220px] w-1/2 md:py-5 py-4">
+                Patent
+            </button>
+        </div>
+        <ul class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 lg:gap-x-10 md:gap-x-7 gap-x-6 gl:gap-y-[60px] md:gap-y-12 gap-y-8 text-center">
+            <li class="certificate_list relative">
+                <button class="absolute left-0 top-0 w-full h-full z-[9]"></button>
+                <div class="lg:h-[400px] md:h-[275px] h-[183px] shadow-lg lg:mb-8 md:mb-6 mb-4">
+                    <img class="w-full block h-full md:object-cover object-contain" src="../assets/images/certifications/certifications1.png" alt="certifications">
+                </div>
+                <h3 class="lg:text-[22px] md:text-xl text-base lg:leading-[26px] md:leading-[24px] leading-[19px] text-[#454545]">
+                    <span class="block lg:mb-2 mb-1 font-bold lg:text-lg md:text-base text-sm">
+                        특허 카테고리
+                    </span>
+                    특허 타이틀 영역 입니다
+                </h3>
+            </li>
+            <li class="certificate_list relative">
+                <button class="absolute left-0 top-0 w-full h-full z-[9]"></button>
+                <div class="lg:h-[400px] md:h-[275px] h-[183px] shadow-lg lg:mb-8 md:mb-6 mb-4">
+                    <img class="w-full block h-full md:object-cover object-contain" src="../assets/images/certifications/certifications1.png" alt="certifications">
+                </div>
+                <h3 class="lg:text-[22px] md:text-xl text-base lg:leading-[26px] md:leading-[24px] leading-[19px] text-[#454545]">
+                    <span class="block lg:mb-2 mb-1 font-bold lg:text-lg md:text-base text-sm">
+                        특허 카테고리
+                    </span>
+                    특허 타이틀 영역 입니다
+                </h3>
+            </li>
+            <li class="certificate_list relative">
+                <button class="absolute left-0 top-0 w-full h-full z-[9]"></button>
+                <div class="lg:h-[400px] md:h-[275px] h-[183px] shadow-lg lg:mb-8 md:mb-6 mb-4">
+                    <img class="w-full block h-full md:object-cover object-contain" src="../assets/images/certifications/certifications1.png" alt="certifications">
+                </div>
+                <h3 class="lg:text-[22px] md:text-xl text-base lg:leading-[26px] md:leading-[24px] leading-[19px] text-[#454545]">
+                    <span class="block lg:mb-2 mb-1 font-bold lg:text-lg md:text-base text-sm">
+                        특허 카테고리
+                    </span>
+                    특허 타이틀 영역 입니다
+                </h3>
+            </li>
+            <li class="certificate_list relative">
+                <button class="absolute left-0 top-0 w-full h-full z-[9]"></button>
+                <div class="lg:h-[400px] md:h-[275px] h-[183px] shadow-lg lg:mb-8 md:mb-6 mb-4">
+                    <img class="w-full block h-full md:object-cover object-contain" src="../assets/images/certifications/certifications1.png" alt="certifications">
+                </div>
+                <h3 class="lg:text-[22px] md:text-xl text-base lg:leading-[26px] md:leading-[24px] leading-[19px] text-[#454545]">
+                    <span class="block lg:mb-2 mb-1 font-bold lg:text-lg md:text-base text-sm">
+                        특허 카테고리
+                    </span>
+                    특허 타이틀 영역 입니다
+                </h3>
+            </li>
+        </ul>
+    </section>
+    <!-- section2 Fin -->
+
+
+    <div id="certificateModal" class="transition transition-all duration-300 ease-out fixed w-full h-full left-0 top-0 bg-[rgba(0,0,0,0.5)] z-[9999] opacity-0 invisible">
+        <button id="certificateModalCloseFloat" class="md:hidden fixed right-3 top-3 z-[10000] p-2 rounded-full bg-black/70 text-white">
+            <svg class="size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"></path>
+            </svg>
+        </button>
+
+        <div id="certificateModalDialog" class="md:w-auto w-[90%] h-auto max-w-[570px] absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 max-h-[90vh]">
+            <img id="certificateModalImage" class="mb-3 w-full block h-auto max-h-[70vh] object-contain" src="" alt="">
+            <div class="flex justify-between w-full">
+                <div>
+                    <span id="certificateModalTitle" class="text-gray-300 text-sm font-bold"></span>
+                </div>
+                <button id="certificateModalClose" class="md:block hidden">
+                    <svg class="size-8 text-gray-300 hover:text-gray-200 transition transition-all duration-300 ease-out" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- 인증서 모달창 Fin -->
+
+
+
+
+    <footer class="lg:py-[100px] pt-[70px] md:pb-20 py-[50px]">
+        <div class="2xl:w-[1400px] lg:w-[90%] md:w-[720px] w-[90%] mx-auto">
+            <div class="mb-9 flex items-end justify-between flex-wrap md:gap-0 gap-8 lg:pb-8 pb-20 border-b border-[#EEEEEE]">
+                <a href="/" class="block lg:w-[142px] md:w-[120px] w-[100px] h-[46px] bg-center bg-contain bg-no-repeat" style="background-image: url('../assets/images/global/logo.png');">
+                    <span class="sr-only">ARUDA logo</span>
+                </a>
+                <ul class="text-[#333333] text-[15px] font-semibold flex flex-wrap lg:gap-8 gap-6">
+                    <li>
+                        <a href="../company/about.html">
+                            Company
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../product/product.html">
+                            Product
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../rnd/philosophy.html">
+                            R&D
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../oemodm/oem_odm.html">
+                            OEM/ODM
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../pr/aruda_news.html">
+                            PR
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../inquiry/inquiry.html">
+                            Inquiry
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="md:pr-[200px] box-border relative text-neutral-700 text-base flex flex-col lg:gap-2 gap-1 lg:mb-6 mb-5">
+                <div class="flex lg:gap-2 gap-x-2 gap-y-1 flex-wrap">
+                    <span class="pr-2 relative
+                        after:content-[''] after:absolute after:right-0 after:top-1/2 after:transform after:-translate-y-1/2 after:w-px after:h-[12px] after:bg-neutral-400">
+                        <span class="font-semibold">Company</span>  Aruda Co., Ltd.
+                    </span>
+                    <span class="pr-2 relative
+                        after:content-[''] after:absolute after:right-0 after:top-1/2 after:transform after:-translate-y-1/2 after:w-px after:h-[12px] after:bg-neutral-400">
+                        <span class="font-semibold">Representative</span>  Sangwon Moon
+                    </span>
+                    <span class="pr-2 relative
+                        after:content-[''] after:absolute after:right-0 after:top-1/2 after:transform after:-translate-y-1/2 after:w-px after:h-[12px] after:bg-neutral-400">
+                        <span class="font-semibold">Business Number</span> 165-88-02166
+                    </span>
+                    <span class="pr-2 relative
+                        after:content-[''] after:absolute after:right-0 after:top-1/2 after:transform after:-translate-y-1/2 after:w-px after:h-[12px] after:bg-neutral-400">
+                        <span class="font-semibold">Tel</span> <a href="tel:+820429363770">+82-042-936-3770</a>
+                    </span>
+                    <span class="pr-2 relative
+                        2xl:after:hidden after:block after:content-[''] after:absolute after:right-0 after:top-1/2 after:transform after:-translate-y-1/2 after:w-px after:h-[12px] after:bg-neutral-400">
+                        <span class="font-semibold">Fax</span> +82-042-936-3772
+                    </span>
+                    <span class="pr-2 relative
+                        after:content-[''] after:absolute after:right-0 after:top-1/2 after:transform after:-translate-y-1/2 after:w-px after:h-[12px] after:bg-neutral-400">
+                        <span class="font-semibold">E-mail </span> <a href="mailto:aruda@aruda.net">aruda@aruda.net</a>
+                    </span>
+                    <span>
+                        <span class="font-semibold">Address</span> <address class="inline not-italic">Daedeok Biz Center A-dong 109, 207, 208, 307, D-303, 17 Techno 4-ro, Yuseong-gu, Daejeon</address>
+                    </span>
+                </div>
+
+                <div class="absolute text-sm font-semibold right-0 md:top-0 top-[-80px] flex gap-6">
+                    <a href="https://arudaglobal.com/wp-content/themes/aruda/assets/file/Aruda-Product-Catalog-EN.pdf" download="Aruda-Product-Catalog-EN.pdf">
+                        <span class="relative pl-5 inline-block
+                            before:content-[''] before:absolute before:left-0 before:top-1/2 before:transform before:-translate-y-1/2 before:w-[14px] before:h-[16px] before:bg-contain before:bg-center before:bg-no-repeat before:bg-[url('../assets/images/global/catalog.png')]">
+                            Catalog
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <p class="text-neutral-500 text-sm">Copyright ©2025 ARUDA All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- footer Fin -->
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        const lenis = new Lenis({
+            smooth: true,
+            direction: 'vertical',
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
+
+        // GSAP ScrollTrigger 연동
+        lenis.on('scroll', () => {
+            ScrollTrigger.update();
+        });
+
+        // 필요 시 ScrollTrigger.refresh()
+        window.addEventListener('load', () => {
+            ScrollTrigger.refresh();
+        });
+    </script>
+    <!-- lenis Fin -->
+
+
+
+
+    
+    <script>
+        const btns = document.querySelectorAll('.btn-select');
+        const lists = document.querySelectorAll('.list-member');
+        const arrows = document.querySelectorAll('.arrow-icon');
+
+        btns.forEach((btn, index) => {
+            const list = lists[index];
+            const arrow = arrows[index];
+
+            btn.addEventListener('click', () => {
+                btn.classList.toggle('active');
+
+                if (btn.classList.contains('active')) {
+                    list.classList.add('visible');
+                    list.classList.remove('invisible');
+                    list.classList.add('opacity-1');
+                    list.classList.remove('opacity-0');
+
+                    arrow.classList.add('rotate-[-180deg]');
+                    arrow.classList.remove('rotate-0');
+                    arrow.classList.add('-translate-1/2');
+
+                } else {
+                    list.classList.add('invisible');
+                    list.classList.remove('visible');
+                    list.classList.add('opacity-0');
+                    list.classList.remove('opacity-1');
+
+                    arrow.classList.remove('rotate-[-180deg]');
+                    arrow.classList.add('rotate-0');
+                    arrow.classList.remove('-translate-1/2');
+                    
+                }
+            });
+
+        });
+
+    </script>
+    <!-- sub nav Fin -->
+
+    
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const modal    = document.getElementById('certificateModal');
+            const dialog   = document.getElementById('certificateModalDialog');
+            const closeBtn = document.getElementById('certificateModalClose');
+            const closeFloatBtn = document.getElementById('certificateModalCloseFloat');
+            const modalImg = document.getElementById('certificateModalImage');
+
+            function openModal() {
+                modal.classList.remove('opacity-0', 'invisible');
+                modal.classList.add('opacity-100', 'visible');
+                // ✅ 바디 스크롤 잠금
+                document.documentElement.classList.add('overflow-hidden');
+                document.body.classList.add('overflow-hidden');
+            }
+
+            function closeModal() {
+                modal.classList.add('opacity-0', 'invisible');
+                modal.classList.remove('opacity-100', 'visible');
+                // ✅ 바디 스크롤 해제
+                document.documentElement.classList.remove('overflow-hidden');
+                document.body.classList.remove('overflow-hidden');
+            }
+
+            // 기존 카드 클릭 시 openModal() 호출 부분에서 openModal 사용
+            // (이미 있으니, 모달 여는 곳에서 openModal()을 쓰도록만 바꿔주세요)
+
+            // 닫기 버튼들
+            if (closeBtn)      closeBtn.addEventListener('click', closeModal);
+            if (closeFloatBtn) closeFloatBtn.addEventListener('click', closeModal);
+
+            // 오버레이 클릭(다이얼로그 바깥)으로 닫기
+            modal.addEventListener('click', function (e) {
+                if (!dialog.contains(e.target)) closeModal();
+            });
+
+            // ESC 로 닫기
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') closeModal();
+            });
+
+            // ✅ 이미지 탭/클릭으로도 닫기 (모바일 편의)
+            if (modalImg) {
+                modalImg.addEventListener('click', closeModal);
+            }
+
+            // ✅ 예시: 기존 여는 코드 교체
+            // 카드 클릭 시 데이터 채우고 openModal()
+            const items = document.getElementsByClassName('certificate_list');
+            Array.from(items).forEach(function(item) {
+                item.addEventListener('click', function() {
+                    const title   = item.querySelector('h3')?.textContent || '';
+                    const imgEl   = item.querySelector('img');
+                    const image   = imgEl?.src || '';
+                    const altText = imgEl?.alt || '';
+
+                    document.getElementById('certificateModalTitle').textContent = title;
+                    document.getElementById('certificateModalImage').src = image;
+                    document.getElementById('certificateModalImage').alt = altText;
+
+                    openModal();
+                });
+            });
+        });
+    </script>
+    <!-- 모달창 열고 닫기 Fin -->
+
+
+    <script>
+        function quickMenu() {
+            const quickMenu = document.querySelector('.quickMenu');
+
+            function onScrollOrResize() {
+                const scrollY = window.scrollY || window.pageYOffset;
+                const scrollX = window.scrollX || window.pageXOffset;
+
+                // Scroll Y: show/hide "topBtn"
+                const topBtn = quickMenu.querySelector('.topBtn');
+                if (scrollY >= window.innerHeight) {
+                    topBtn.classList.add('active');
+                } else {
+                    topBtn.classList.remove('active');
+                }
+            }
+
+            // Attach scroll and resize listeners
+            window.addEventListener('scroll', onScrollOrResize);
+            window.addEventListener('resize', onScrollOrResize);
+
+            // btn-up click → scroll to top
+            quickMenu.querySelector('.topBtn').addEventListener('click', function () {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            // btn-more click → toggle .is-active on parent .menu-more
+            const btnMore = quickMenu.querySelector('.btnMore');
+            if (btnMore) {
+                btnMore.addEventListener('click', function () {
+                    let menuMore = btnMore.closest('.menuMore');
+                    if (menuMore) {
+                        menuMore.classList.toggle('active');
+                    }
+                });
+            }
+
+            // 초기 실행
+            onScrollOrResize();
+        }
+
+        quickMenu();
+    </script>
+    <!-- ---------------------------- quickMenu Fin ---------------------------- -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const targetDiv_bg = document.querySelector('#header_mo > div');
+            const logoLink_mo = document.querySelector('#header_mo .logo'); // 로고 고르는 선택자
+            const hamburger = document.getElementById('hamburger');
+            const hamburgerSpans_mo = document.querySelectorAll('#hamburger span'); 
+            const nav_mo = document.querySelector('#header_mo nav');
+            const bodyElement = document.body;
+
+            const firstSpan = document.querySelector('#hamburger span:nth-child(1)');
+            const secondSpan = document.querySelector('#hamburger span:nth-child(2)');
+            const lastSpan = document.querySelector('#hamburger span:nth-child(3)');
+
+            // [함수] 현재 스크롤 위치에 따라 배경색을 새로고침하는 기능
+            function updateHeaderBackground() {
+                // 단, 메뉴가 열려있을(active) 때는 스크롤 상관없이 무조건 흰색 유지!
+                if (nav_mo.classList.contains('active')) {
+                    targetDiv_bg.classList.remove('bg-transparent');
+                    targetDiv_bg.classList.add('bg-white');
+
+                    logoLink_mo.style.backgroundImage = "url('../assets/images/global/logo.png')";
+                    hamburgerSpans_mo.forEach(span => {
+                        span.classList.remove('bg-white');
+                        span.classList.add('bg-neutral-700');
+                    });
+                    return;
+                }
+
+                // 메뉴가 닫혀있을 때는 스크롤 위치에 따름
+                if (window.scrollY > 0) {
+                    targetDiv_bg.classList.remove('bg-transparent');
+                    targetDiv_bg.classList.add('bg-white');
+                    
+                    logoLink_mo.style.backgroundImage = "url('../assets/images/global/logo.png')";
+                    hamburgerSpans_mo.forEach(span => {
+                        span.classList.remove('bg-white');
+                        span.classList.add('bg-neutral-700');
+                    });
+                } else {
+                    targetDiv_bg.classList.remove('bg-white');
+                    targetDiv_bg.classList.add('bg-transparent');
+                    
+                    logoLink_mo.style.backgroundImage = "url('../assets/images/global/logo_white.png')";
+                    hamburgerSpans_mo.forEach(span => {
+                        span.classList.add('bg-white');
+                        span.classList.remove('bg-neutral-700');
+                    });
+                }
+            }
+
+            // 1. 초기 로딩 시 배경색 설정
+            updateHeaderBackground();
+
+            // 2. 스크롤할 때 배경색 제어
+            window.addEventListener('scroll', updateHeaderBackground);
+
+            // 3. 햄버거 버튼 클릭 이벤트
+            hamburger.addEventListener('click', function() {
+                nav_mo.classList.toggle('active');
+                
+                if (nav_mo.classList.contains('active')) {
+                    bodyElement.classList.add('overflow-y-hidden');
+                    nav_mo.classList.add('right-0');
+                    nav_mo.classList.remove('right-[-100%]');
+
+                    firstSpan.classList.add('translate-y-1', 'rotate-45');
+                    secondSpan.classList.add('-translate-y-[5px]', 'w-[26px]', '-rotate-45');
+                    lastSpan.classList.add('hidden');
+                } else {
+                    bodyElement.classList.remove('overflow-y-hidden');
+                    nav_mo.classList.remove('right-0');
+                    nav_mo.classList.add('right-[-100%]');
+
+                    firstSpan.classList.remove('translate-y-1', 'rotate-45');
+                    secondSpan.classList.remove('-translate-y-[5px]', 'w-[26px]', '-rotate-45');
+                    lastSpan.classList.remove('hidden');
+                }
+
+                // 햄버거 토글 직후에 배경색 상태 업데이트 (열리면 흰색으로, 닫히면 스크롤 상태에 맞춤)
+                updateHeaderBackground();
+            });
+
+            // 4. 모바일 메뉴 내부 링크 클릭 시 닫기
+            document.querySelectorAll('#header_mo nav ul li a').forEach(anchor => {
+                anchor.addEventListener('click', function() {
+                    nav_mo.classList.remove('active');
+                    bodyElement.classList.remove('overflow-y-hidden');
+
+                    nav_mo.classList.remove('right-0');
+                    nav_mo.classList.add('right-[-100%]');
+
+                    firstSpan.classList.remove('translate-y-1', 'rotate-45');
+                    secondSpan.classList.remove('-translate-y-[4px]', 'w-[26px]', '-rotate-45');
+                    lastSpan.classList.remove('hidden');
+
+                    // 링크 클릭해서 닫힌 후에도 배경색 상태 업데이트
+                    updateHeaderBackground();
+                });
+            });
+        });
+    </script>
+    <!-- header mo : 햄버거 버튼 클릭 시 메뉴 열기, 햄버거 버튼 활성화 시 헤더 배경색 제어 Fin -->
+
+    <script>
+        // Accordion 기능 구현
+        const accordionFaqs = document.querySelectorAll('.siteMap-accordion-header');
+
+        accordionFaqs.forEach(header => {
+            header.addEventListener('click', function() {
+                // 클릭된 header 요소에 'active' 클래스 토글
+                this.classList.toggle('active');
+
+                const siteMap_svg = this.querySelector('svg');
+                
+                // 'active' 클래스가 추가된 경우 svg 스타일 변경
+                if (this.classList.contains('active')) {
+                    const title = this.querySelector('h2');
+                    title.classList.remove('whitespace-nowrap', 'overflow-hidden', 'text-ellipsis', 'text-neutral-900');
+                    title.classList.add('text-[#AA3430]');
+                    if (siteMap_svg) {
+                        siteMap_svg.style.transform = 'rotate(180deg)';
+                        // siteMap_svg.style.color = '#AA3430';
+                    }
+                } else {
+                    const title = this.querySelector('h2');
+                    title.classList.add('whitespace-nowrap', 'overflow-hidden', 'text-ellipsis', 'text-neutral-900');
+                    title.classList.remove('text-[#AA3430]');
+                    if (siteMap_svg) {
+                        siteMap_svg.style.transform = 'rotate(0deg)';
+                        // siteMap_svg.style.color = '#3B82F6';
+                    }
+                }
+
+                // 현재 클릭된 header의 sibling인 content 요소
+                const content = this.nextElementSibling;
+
+                // 다른 모든 내용은 숨기기
+                const allContents = document.querySelectorAll('.siteMap-accordion-content');
+                allContents.forEach(item => {
+                    if (item !== content) {
+                        item.style.maxHeight = null;  // 다른 항목 숨기기
+                        item.previousElementSibling.classList.remove('active');
+
+                        const siteMap_svg = item.previousElementSibling.querySelector('svg');
+                        if (siteMap_svg) {
+                            siteMap_svg.style.transform = 'rotate(0deg)';
+                            // siteMap_svg.style.color = '#3B82F6';
+                        }
+
+                        const title = item.previousElementSibling.querySelector('h2');
+                        title.classList.add('whitespace-nowrap', 'overflow-hidden', 'text-ellipsis', 'text-neutral-900');
+                        title.classList.remove('text-[#AA3430]');
+                    }
+                });
+
+                // 클릭된 content만 토글 (보이거나 숨기기)
+                if (content.style.maxHeight) {
+                    // 이미 열려 있으면 숨김
+                    content.style.maxHeight = null;
+                } else {
+                    // content의 scrollHeight를 max-height로 설정하여 내용 크기에 맞게 펼침
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                }
+            });
+        });
+
+    </script>
+    <!-- header_mo accordian Fin -->
+    <!-- ---------------------------- header mo Fin ---------------------------- -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        // 1. 제어할 요소 선택
+        const header_pc = document.querySelector('#header_pc');
+        const nav_pc = document.querySelector('#nav');
+        // pc
+
+        const header_mo = document.querySelector('#header_mo'); 
+        const targetDiv = document.querySelector('#header_mo > div');
+        const hamburgerBtn = document.querySelector('#hamburger'); 
+        const hamburgerSpans = document.querySelectorAll('#hamburger span'); 
+        // mo
+
+        // ★ 수정: PC 로고(.logo > a)와 모바일 로고(#header_mo a)를 모두 찾을 수 있도록 선택자 결합
+        const logo_imgs = document.querySelectorAll('.logo > a, #header_mo .headerBG > a, #header_mo .logo');
+        const catalogBtns_img = document.querySelectorAll('.catalogBtn > span > span');
+        const btnBoxs = document.querySelectorAll('.btnBox');
+        const langBtns = document.querySelectorAll('.langBtn .lang-icon');
+        // 공통
+
+        // [상태 변수]
+        let isHeaderHovered = false;
+        let isMobileMenuOpen = false; 
+
+        // ★ 안전한 서브페이지 체크 함수
+        function checkIsSubPage() {
+            const globalHeader = document.querySelector('header');
+            const hasActive = (globalHeader && globalHeader.classList.contains('active')) || 
+                            (header_pc && header_pc.classList.contains('active')) || 
+                            (header_mo && header_mo.classList.contains('active'));
+            return !!hasActive; 
+        }
+
+        // [핵심 통합 함수]
+        function updateHeaderUI() {
+            const isSubPage = checkIsSubPage();
+            const isColorState = isSubPage || window.scrollY > 0 || isHeaderHovered || isMobileMenuOpen;
+
+            if (isColorState) {
+                // ==================== [컬러/Black 배경 상태] ====================
+                if (header_pc) {
+                    header_pc.classList.add('bg-white');
+                    header_pc.classList.remove('bg-transparent');
+                    if (isHeaderHovered) {
+                        header_pc.classList.add('h-[360px]');
+                    } else {
+                        header_pc.classList.remove('h-[360px]');
+                    }
+                }
+                if (nav_pc) {
+                    nav_pc.classList.remove('text-white');
+                    nav_pc.classList.add('text-black');
+                }
+
+                // 모바일 헤더 활성화
+                if (targetDiv) {
+                    targetDiv.classList.remove('bg-transparent');
+                    targetDiv.classList.add('bg-white');
+                }
+                hamburgerSpans.forEach(span => {
+                    span.classList.remove('bg-white');
+                    span.classList.add('bg-neutral-700');
+                });
+
+                // ★ 수정: 찾은 모든 로고(PC, 모바일)의 이미지를 컬러로 교체
+                logo_imgs.forEach(logo => {
+                    logo.style.backgroundImage = "url('../assets/images/global/logo.png')";
+                });
+                catalogBtns_img.forEach(btn => btn.style.backgroundImage = "url('../assets/images/global/catalog.png')");
+                btnBoxs.forEach(btn => {
+                    btn.classList.remove('text-white');
+                    btn.classList.add('text-black');
+                });
+                langBtns.forEach(btn => btn.style.backgroundImage = "url('../assets/images/global/lang.png')");
+
+            } else {
+                // ==================== [투명/White 배경 상태] ====================
+                if (header_pc) {
+                    header_pc.classList.remove('bg-white', 'h-[360px]');
+                    header_pc.classList.add('bg-transparent');
+                }
+                if (nav_pc) {
+                    nav_pc.classList.add('text-white');
+                    nav_pc.classList.remove('text-black');
+                }
+
+                // 모바일 헤더 초기화
+                if (targetDiv) {
+                    targetDiv.classList.remove('bg-white');
+                    targetDiv.classList.add('bg-transparent');
+                }
+                hamburgerSpans.forEach(span => {
+                    span.classList.remove('bg-neutral-700');
+                    span.classList.add('bg-white');
+                });
+
+                // ★ 수정: 찾은 모든 로고(PC, 모바일)의 이미지를 흰색으로 교체
+                logo_imgs.forEach(logo => {
+                    logo.style.backgroundImage = "url('../assets/images/global/logo_white.png')";
+                });
+                catalogBtns_img.forEach(btn => btn.style.backgroundImage = "url('../assets/images/global/catalog_white.png')");
+                btnBoxs.forEach(btn => {
+                    btn.classList.add('text-white');
+                    btn.classList.remove('text-black');
+                });
+                langBtns.forEach(btn => btn.style.backgroundImage = "url('../assets/images/global/lang_white.png')");
+            }
+
+            // 개별 메뉴들의 기본 글자 색상 복구
+            for (let i = 1; i <= 6; i++) {
+                const menu = document.querySelector(`.menu${i}`);
+                if (menu) {
+                    if (!menu.classList.contains('text-[#AA3430]')) {
+                        if (isColorState) {
+                            menu.classList.add('text-black');
+                            menu.classList.remove('text-white');
+                        } else {
+                            menu.classList.add('text-white');
+                            menu.classList.remove('text-black');
+                        }
+                    }
+                }
+            }
+        }
+
+        // 2. 개별 메뉴 1~6 Hover 이벤트 바인딩
+        for (let i = 1; i <= 6; i++) {
+            const box = document.querySelector(`.menuBox${i}`);
+            const menu = document.querySelector(`.menu${i}`);
+
+            if (!box || !menu) continue;
+
+            const activateMenu = () => {
+                menu.classList.add('text-[#AA3430]', '2xl:after:w-[170px]', 'after:w-[100px]', 'after:opacity-100');
+                menu.classList.remove('text-black', 'text-white', 'after:w-0', 'after:opacity-0');
+            };
+
+            const deactivateMenu = () => {
+                menu.classList.remove('text-[#AA3430]', 'after:w-[170px]', 'after:opacity-100');
+                menu.classList.add('after:w-0', 'after:opacity-0');
+                
+                const isSubPage = checkIsSubPage();
+                
+                if (isSubPage || window.scrollY > 0 || isHeaderHovered || isMobileMenuOpen) {
+                    menu.classList.add('text-black');
+                } else {
+                    menu.classList.add('text-white');
+                }
+            };
+
+            box.addEventListener('mouseover', activateMenu);
+            box.addEventListener('mouseout', deactivateMenu);
+            menu.addEventListener('mouseover', activateMenu);
+            menu.addEventListener('mouseout', deactivateMenu);
+        }
+
+        // 3. PC 헤더 전체 마우스 오버 이벤트 등록
+        if (header_pc) {
+            header_pc.addEventListener('mouseover', () => {
+                isHeaderHovered = true;
+                updateHeaderUI();
+            });
+
+            header_pc.addEventListener('mouseout', () => {
+                isHeaderHovered = false;
+                updateHeaderUI();
+            });
+        }
+
+        // 4. 모바일 햄버거 버튼 클릭 이벤트 연동
+        if (hamburgerBtn) {
+            hamburgerBtn.addEventListener('click', () => {
+                isMobileMenuOpen = !isMobileMenuOpen; 
+                updateHeaderUI(); 
+            });
+        }
+
+        // 5. 스크롤 이벤트 등록
+        window.addEventListener('scroll', updateHeaderUI);
+
+        // 6. 초기화 실행
+        updateHeaderUI();
+    });
+    </script>
+    <!-- ---------------------------- header custom (pc/mo common) Fin ---------------------------- -->
+
+    <script>
+        (function(){
+            const wrap = document.getElementById('langDropdown');
+            if (!wrap) return;
+            const btn  = document.getElementById('langToggle');
+            const menu = document.getElementById('langMenu');
+
+            const close = () => {
+                menu.classList.add('opacity-0','invisible','translate-y-1');
+                menu.classList.remove('opacity-100','visible','translate-y-0');
+                btn.setAttribute('aria-expanded','false');
+            };
+            const open = () => {
+                menu.classList.remove('opacity-0','invisible','translate-y-1');
+                menu.classList.add('opacity-100','visible','translate-y-0');
+                btn.setAttribute('aria-expanded','true');
+            };
+            close();
+
+            btn.addEventListener('click', (e)=>{
+                e.stopPropagation();
+                (btn.getAttribute('aria-expanded') === 'true') ? close() : open();
+            });
+            document.addEventListener('click', (e)=>{ if (!wrap.contains(e.target)) close(); });
+            document.addEventListener('keydown', (e)=>{ if (e.key === 'Escape') close(); });
+        })();
+    </script>
+    <!-- langBtn pc Fin -->
+    <script>
+        (function(){
+            const wrap = document.getElementById('langDropdownMo');
+            if (!wrap) return;
+            const btn  = document.getElementById('langToggleMo');
+            const menu = document.getElementById('langMenuMo');
+
+            const open = () => {
+                menu.classList.remove('opacity-0','invisible','translate-y-1');
+                menu.classList.add('opacity-100','visible','translate-y-0');
+                btn.setAttribute('aria-expanded','true');
+            };
+            const close = () => {
+                menu.classList.add('opacity-0','invisible','translate-y-1');
+                menu.classList.remove('opacity-100','visible','translate-y-0');
+                btn.setAttribute('aria-expanded','false');
+            };
+
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                menu.classList.contains('visible') ? close() : open();
+            });
+
+            // 바깥 클릭/ESC로 닫기
+            document.addEventListener('click', (e) => { if (!wrap.contains(e.target)) close(); });
+            document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+
+            // 데스크톱으로 리사이즈 시 닫기
+            window.addEventListener('resize', () => { if (window.innerWidth >= 1024) close(); });
+        })();
+    </script>
+    <!-- langBtn mo Fin -->
+</body>
+</html>
