@@ -831,57 +831,6 @@
 
 
 
-    <script>
-        function quickMenu() {
-            const quickMenu = document.querySelector('.quickMenu');
-
-            function onScrollOrResize() {
-                const scrollY = window.scrollY || window.pageYOffset;
-                const scrollX = window.scrollX || window.pageXOffset;
-
-                // Scroll Y: show/hide "topBtn"
-                const topBtn = quickMenu.querySelector('.topBtn');
-                if (scrollY >= window.innerHeight) {
-                    topBtn.classList.add('active');
-                } else {
-                    topBtn.classList.remove('active');
-                }
-
-                // Scroll X: adjust horizontal position
-                // if (scrollX > 0) {
-                //     quickMenu.style.marginLeft = `-${scrollX}px`;
-                // } else {
-                //     quickMenu.style.marginLeft = '0';
-                // }
-            }
-
-            // Attach scroll and resize listeners
-            window.addEventListener('scroll', onScrollOrResize);
-            window.addEventListener('resize', onScrollOrResize);
-
-            // btn-up click → scroll to top
-            quickMenu.querySelector('.topBtn').addEventListener('click', function () {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-
-            // btn-more click → toggle .is-active on parent .menu-more
-            const btnMore = quickMenu.querySelector('.btnMore');
-            if (btnMore) {
-                btnMore.addEventListener('click', function () {
-                    let menuMore = btnMore.closest('.menuMore');
-                    if (menuMore) {
-                        menuMore.classList.toggle('active');
-                    }
-                });
-            }
-
-            // 초기 실행
-            onScrollOrResize();
-        }
-
-        quickMenu();
-    </script>
-    <!-- quickMenu Fin -->
 
     
 
@@ -1017,6 +966,7 @@
         quickMenu();
     </script>
     <!-- ---------------------------- quickMenu Fin ---------------------------- -->
+
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
